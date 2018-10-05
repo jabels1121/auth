@@ -14,12 +14,13 @@ const Header = (props) => {
 
 const styles = {
     viewStyle: {
+        height: 60,
         backgroundColor: '#f1f4ff',
         alignItems: 'center',
         justifyContent: 'center',
-        height: 60,
-        elevation: 4,
-        position: 'relative'
+        elevation: 2,
+        position: 'relative',
+        marginBottom: 15
     },
     textStyle: {
         fontSize: 22.5,
